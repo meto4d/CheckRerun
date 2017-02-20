@@ -1,5 +1,4 @@
 CheckRerun
-
 ====
 
 概要
@@ -20,7 +19,7 @@ CheckRerun
  
  HideExec.vbsを書き換えて，CheckRerun.vbsに統合予定です．
 
-# # 使い方
+## 使い方
 
  1. CheckRerun.vbsをメモ帳で開いて，以下の部分を環境に合わせてプログラムの指定を行う様に修正してください．
  
@@ -57,7 +56,7 @@ CheckRerun
  
  3. もし，一定時間ごとに実行される動作を終了させたい場合はserver_reg_uninstall.batを実行してください．
 
-# # 各スクリプトの説明
+## 各スクリプトの説明
  
 *CheckRerun.vbs
 　プログラムが実行されてるか(プロセス一覧の中に指定したプログラムがあるか)
@@ -85,16 +84,16 @@ CheckRerun
 *process_test.txt
  ログ出力用テキストファイル．
  
-# # Usage
+## Usage
  
  
-# # Install
+## Install
  
  
-# # Licence
+## Licence
  まだだよ．
  完全にオープンソースで複製自由に
 
-# # 何かあれば(Author)
+## 何かあれば(Author)
 　[Twitter@meto4d](https://twitter.com/meto4d)
  [meto4d](https://github.com/meto4d)
