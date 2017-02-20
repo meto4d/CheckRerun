@@ -23,8 +23,8 @@
 
  1. CheckRerun.vbsをメモ帳で開いて，以下の部分を環境に合わせてプログラムの指定を行う様に修正してください．
  
-    ' ここに監視を行うserverプログラムの"プロセス名"を入力する
-    Const SERVER_PROG = "cmd.exe"
+     ' ここに監視を行うserverプログラムの"プロセス名"を入力する
+     Const SERVER_PROG = "cmd.exe"
     
     ' ここに実行を行うserverプログラムの"場所"を入力する
     Const SERVER_DIR = "C:\Windows\System32"
