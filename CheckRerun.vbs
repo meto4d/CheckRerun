@@ -8,13 +8,13 @@ Option Explicit
 
 
 ' ここに監視を行うserverプログラムの"プロセス名"を入力する
-Const SERVER_PROG = "srcds.exe"
+Const SERVER_PROG = "cmd.exe"
 
 ' ここに実行を行うserverプログラムの"場所"を入力する
-Const SERVER_DIR = "D:\srcds" 'server.bat
+Const SERVER_DIR = "C:\Windows\System32"
 
 ' ここに実行を行うserverプログラムの"名前"を入力する
-Const SERVER_EXEC = "server.bat"
+Const SERVER_EXEC = "notepad.exe"
 
 ' 起動していなかった時に、再起動した日時を出力してくれるファイル
 Const LOG_PROG = "process_test.txt"

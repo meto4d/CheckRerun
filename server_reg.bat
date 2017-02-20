@@ -2,7 +2,7 @@
 CD /d %~dp0
 
 rem é¿çsÇ∑ÇÈä‘äu(1Å`999ï™)
-SET /A TIME_INTERVAL=1
+SET /A TIME_INTERVAL=5
 
 SET SERVER_PROG=\"wscript"\"%~dp0CheckRerun.vbs"
 ::echo %SERVER_PROG%
